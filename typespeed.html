@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Speed Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Typing Speed Test</h1>
+    <div id="difficulty-selection">
+        <label for="difficulty">Difficulty:</label>
+        <select id="difficulty" name="difficulty">
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+        </select>
+    </div>
+    <div id="time-limit">
+        <label for="time-limit">Time Limit (minutes):</label>
+        <input type="number" id="time-limit-input" value="1">
+    </div>
+    <p id="test-paragraph"></p>
+    <textarea id="user-input" rows="7" placeholder="Type the paragraph here..."></textarea>
+    <div id="character-count">0 characters</div>
+    <div id="progress-bar"></div> <button id="start-btn">Start Test</button>
+    <div id="results"></div>
+    <div id="mistyped-words"></div> <div id="progress-section"><h2>Progress</h2></div>
+    <form id="email-form" style="display: none;"> <label for="email">Enter your email:</label>
+        <input type="email" id="email-input" required>
+        <button type="submit">Send Results</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
