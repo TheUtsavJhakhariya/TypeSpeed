@@ -15,7 +15,7 @@ let currentParagraph = "";
 let startTime; 
 let elapsedTime = 0;
 let intervalId;
-
+ 
 function updateCharacterCount() {
   const typedText = userInputElement.value;
   const characterCount = typedText.length;
