@@ -3,7 +3,7 @@ const userInputElement = document.getElementById('user-input');
 const startButton = document.getElementById('start-btn');
 const resultsElement = document.getElementById('results');
 const difficultySelect = document.getElementById('difficulty');
-const timeLimitInput = document.getElementById('time-limit-input');
+const timeLimitInput = document.getElementById('time-limit-input'); 
 const progressSection = document.getElementById('progress-section');
 const countdownElement = document.createElement('span'); // New element for countdown 
 
