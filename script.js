@@ -4,7 +4,7 @@ const startButton = document.getElementById('start-btn');
 const resultsElement = document.getElementById('results');
 const difficultySelect = document.getElementById('difficulty');
 const timeLimitInput = document.getElementById('time-limit-input'); 
-const progressSection = document.getElementById('progress-section');
+const progressSection = document.getElementById('progress-section'); 
 const countdownElement = document.createElement('span');  
  
 const easyParagraphs = ["The Ultimate Fighting Championship is a mixed martial arts promotion company based in Las Vegas, Nevada. It is the largest MMA promotion in the world and features some of the highest-level fighters in the sport. Founded in 1993, the UFC has grown significantly over the years and has become a global phenomenon. With events held in various countries and millions of fans worldwide, the UFC continues to push the boundaries of combat sports entertainment."]; // Your easy paragraphs here
