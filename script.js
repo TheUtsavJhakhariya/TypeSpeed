@@ -5,7 +5,7 @@ const resultsElement = document.getElementById('results');
 const difficultySelect = document.getElementById('difficulty');
 const timeLimitInput = document.getElementById('time-limit-input'); 
 const progressSection = document.getElementById('progress-section');
-const countdownElement = document.createElement('span'); 
+const countdownElement = document.createElement('span');  
  
 const easyParagraphs = ["The Ultimate Fighting Championship is a mixed martial arts promotion company based in Las Vegas, Nevada. It is the largest MMA promotion in the world and features some of the highest-level fighters in the sport. Founded in 1993, the UFC has grown significantly over the years and has become a global phenomenon. With events held in various countries and millions of fans worldwide, the UFC continues to push the boundaries of combat sports entertainment."]; // Your easy paragraphs here
 const mediumParagraphs = ["Mixed martial arts is a dynamic and evolving sport that combines techniques from various martial arts disciplines, including boxing, Brazilian Jiu-Jitsu, Muay Thai, wrestling, and judo. Fighters in MMA must be proficient in both striking and grappling techniques, as well as possess a high level of cardiovascular fitness and mental toughness. Matches are often fast-paced and unpredictable, requiring fighters to adapt quickly to their opponent's tactics while maintaining their own game plan. The sport has gained widespread popularity in recent years, with organizations like the UFC showcasing elite-level talent from around the world."]; // Your medium paragraphs here 
